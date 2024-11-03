@@ -23,6 +23,14 @@ const Navbar = () => {
     return (
         <nav className='bg-white shadow-md p-4'>
             <div className='container mx-auto flex justify-between items-center'>
+                {/* Mobile Menu */}
+                <button
+                    className='lg:hidden text-2xl'
+                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                >
+                    <IoMenu />
+                </button>
+
                 {/* Logo */}
                 <div className='flex items-center'>
                     <Link
@@ -41,39 +49,31 @@ const Navbar = () => {
                         placeholder='Znajdź produkt...'
                         className='w-full px-4 py-2 border rounded-2xl focus:outline-none focus:ring-2 focus:ring-red-500'
                     />
-                    <IoMdSearch className='text-2xl ml-1 cursor-pointer' />
+                    <IoMdSearch className='text-2xl ml-2 cursor-pointer' />
                 </div>
 
-                {/* Favourites */}
-                <button
-                    className='text-2xl'
-                >
-                    <IoHeart />
-                </button>
-
-                {/* Cart */}
-                <button
-                    className='text-2xl'
-                >
-                    <IoCart />
-                </button>
-
-                {/* Mobile Menu */}
-                <button
-                    className='lg:hidden text-2xl'
-                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                >
-                    <IoMenu />
-                </button>
+                {/* Favourites And Cart */}
+                <div className='flex items-center gap-2'>
+                    <button
+                        className='text-2xl'
+                    >
+                        <IoHeart />
+                    </button>
+                    <button
+                        className='text-2xl'
+                    >
+                        <IoCart />
+                    </button>
+                </div>
             </div>
 
             {/* Desktop Menu Links */}
-            <div className='hidden lg:flex justify-center mt-4 space-x-6'>
+            <div className='hidden lg:flex justify-center mt-6 space-x-9'>
                 {navLinks.map((link) => (
                     <Link
                         key={link.path}
                         to={link.path}
-                        className={`text-gray-700 hover:text-black ${link.special ? 'text-red-500 hover:text-red-700' : ''}`}
+                        className={`text-sm text-gray-700 hover:text-black ${link.special ? 'text-red-500 hover:text-red-700' : ''}`}
                     >
                         {link.label}
                     </Link>
