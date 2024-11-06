@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import PromotedOffers from './components/PromotedOffers/PromotedOffers';
 import Promotions from './components/Promotions/Promotions';
+import Brands from './components/Brands/Brands';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <PromotedOffers />
       <Promotions />
+      <Brands />
     </BrowserRouter>
   );
 };
