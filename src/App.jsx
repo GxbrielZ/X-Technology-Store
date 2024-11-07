@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import PromotedOffers from './components/PromotedOffers/PromotedOffers';
 import Promotions from './components/Promotions/Promotions';
 import Brands from './components/Brands/Brands';
+import Bestsellers from './components/Bestsellers/Bestsellers';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <PromotedOffers />
       <Promotions />
       <Brands />
+      <Bestsellers />
     </BrowserRouter>
   );
 };
