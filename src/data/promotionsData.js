@@ -10,42 +10,42 @@ import promo8 from "../assets/PromotionsAssets/promo8.jpg";
 export const PromotionsData = [
     {
         image: promo1,
-        title: "Lorem ipsum dolor",
+        title: "Promocja 1",
         badge: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar metus massa, blandit auctor nisl pulvinar nec."
     },
     {
         image: promo2,
-        title: "Lorem ipsum dolor",
+        title: "Promocja 2",
         badge: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar metus massa, blandit auctor nisl pulvinar nec."
     },
     {
         image: promo3,
-        title: "Lorem ipsum dolor",
+        title: "Promocja 3",
         badge: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar metus massa, blandit auctor nisl pulvinar nec."
     },
     {
         image: promo4,
-        title: "Lorem ipsum dolor",
+        title: "Promocja 4",
         badge: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar metus massa, blandit auctor nisl pulvinar nec."
     },
     {
         image: promo5,
-        title: "Lorem ipsum dolor",
+        title: "Promocja 5",
         badge: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar metus massa, blandit auctor nisl pulvinar nec."
     },
     {
         image: promo6,
-        title: "Lorem ipsum dolor",
+        title: "Promocja 6",
         badge: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar metus massa, blandit auctor nisl pulvinar nec."
     },
     {
         image: promo7,
-        title: "Lorem ipsum dolor",
+        title: "Promocja 7",
         badge: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar metus massa, blandit auctor nisl pulvinar nec."
     },
     {
         image: promo8,
-        title: "Lorem ipsum dolor",
+        title: "Promocja 8",
         badge: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar metus massa, blandit auctor nisl pulvinar nec."
     }
 ];
