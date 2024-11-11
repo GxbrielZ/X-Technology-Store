@@ -6,6 +6,7 @@ import PromotedOffers from './components/PromotedOffers/PromotedOffers';
 import Promotions from './components/Promotions/Promotions';
 import Brands from './components/Brands/Brands';
 import Bestsellers from './components/Bestsellers/Bestsellers';
+import Newsletter from './components/Newsletter/Newsletter';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Promotions />
       <Brands />
       <Bestsellers />
+      <Newsletter />
     </BrowserRouter>
   );
 };
