@@ -7,6 +7,7 @@ import Promotions from './components/Promotions/Promotions';
 import Brands from './components/Brands/Brands';
 import Bestsellers from './components/Bestsellers/Bestsellers';
 import Newsletter from './components/Newsletter/Newsletter';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Brands />
       <Bestsellers />
       <Newsletter />
+      <Footer />
     </BrowserRouter>
   );
 };
